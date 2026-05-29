@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+  <meta charset="UTF-8">
+  <title>FocusMate</title>
+  <link rel="stylesheet" href="style56.css">
+</head>
+<body>
+
+<div class="app">
+  <h1>FocusMate</h1>
+
+  <button id="themeBtn">Dark Mode</button>
+
+  <div class="box">
+    <h2 id="phase">Work</h2>
+    <div id="timer">25:00</div>
+
+    <div class="progress">
+      <div id="progressBar"></div>
+    </div>
+
+    <p>Sessions: <span id="sessions">0</span></p>
+
+    <button id="startBtn">Start</button>
+    <button id="pauseBtn">Pause</button>
+    <button id="resumeBtn">Resume</button>
+    <button id="resetBtn">Reset</button>
+
+    <p id="message"></p>
+  </div>
+
+  <div class="box">
+    <h2>Daily Goal</h2>
+
+    <input id="goalInput" type="number">
+    <button id="saveGoalBtn">Save</button>
+
+    <p>Goal: <span id="goalProgress">0 / 6</span></p>
+  </div>
+
+  <div class="box">
+    <h2>Tasks</h2>
+
+    <input id="taskInput" type="text" placeholder="Write task...">
+    <button id="addTaskBtn">Add</button>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <div class="box">
+    <h2>Statistics</h2>
+    <p>Total Sessions: <span id="totalSessions">0</span></p>
+    <p>Completed Tasks: <span id="completedTasks">0</span></p>
+  </div>
+</div>
+
+<script src="script56.js"></script>
+</body>
+</html>
